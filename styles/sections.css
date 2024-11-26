@@ -1,0 +1,73 @@
+#intro {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 94px;
+  header {
+    margin-top: 120px;
+
+    .avatar {
+      position: relative;
+      max-width: 112px;
+      margin: 0 auto;
+      margin-bottom: 56px;
+
+      img#avatar {
+        width: 96px;
+        aspect-ratio: 1/1;
+        border-radius: 50%;
+        outline: 3px solid var(--green);
+        padding: 4.36px;
+      }
+
+      &::after {
+        content: url(../assets/images/Code.png);
+        width: 32px;
+        height: 32px;
+        position: absolute;
+        right: 10px;
+        bottom: 10px;
+      }
+    }
+
+    #text {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      max-width: 680px;
+      margin: 0 auto;
+
+      p.subtitle{
+        color: var(--gray-500);
+        margin-bottom: 8px;
+        span{
+          color: var(--green);
+        }
+      }
+
+      p.text-sm{
+        margin-top: 20px;
+        color: var(--gray-400);
+      }
+    }
+
+    .tag-list {
+      margin-top: 80px;
+      display: flex;
+      justify-content: center;
+      gap: 16px;
+
+      .tag{
+        padding: 8px 16px;
+        background-color: var(--gray-300);
+        border-radius: 999px;
+        display: flex;
+        gap: 8px;
+        align-content: center;
+      }
+    }
+  }
+  a{
+    margin-bottom: 57px;
+  }
+}
