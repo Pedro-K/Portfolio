@@ -104,6 +104,11 @@
         color: var(--gray-500);
       }
     }
+
+    &:hover{
+      border: 1.5px solid var(--gray-400);
+    }
+
   }
 }
 
@@ -185,6 +190,7 @@
       &:hover{
         background-color: var(--gray-100);
         color: var(--blue);
+        border: 1px solid var(--blue);
       }
       
     }
