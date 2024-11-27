@@ -141,3 +141,52 @@
     }
   }
 }
+
+#contact {
+  background-image: url(../assets/images/Background_Contacts.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding-top: 128px;
+  padding-bottom: 200px;
+
+  header{
+    display: grid;
+    gap: 8px;
+    h2{
+      color: var(--blue);
+    }
+    p:last-child{
+      color: var(--gray-500);
+    }
+  }
+
+  .links{
+    max-width: 400px;
+    margin-top: 48px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+
+    .link{
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      background-color: var(--gray-300);
+      padding: 20px;
+      border-radius: 8px;
+      color: var(--gray-500);
+      text-decoration: none;
+
+      span{
+        width: 100%;
+        margin: 0 12px;
+      }
+      &:hover{
+        background-color: var(--gray-100);
+        color: var(--blue);
+      }
+      
+    }
+  }
+}
