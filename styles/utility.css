@@ -1,0 +1,66 @@
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border-width: 0;
+}
+
+.title-lg {
+  font-family: "Asap", serif;
+  font-size: 56px;
+  line-height: 120%;
+  font-weight: 700;
+}
+
+.title-md {
+  font-family: "Asap", serif;
+  font-size: 24px;
+  line-height: 120%;
+  font-weight: 700;
+}
+
+.title-sm {
+  font-family: "Asap", serif;
+  font-size: 16px;
+  line-height: 120%;
+  font-weight: 700;
+}
+
+.subtitle {
+  font-family: "Inconsolata", serif;
+  font-size: 20px;
+  line-height: 120%;
+  font-weight: 400;
+}
+
+.text-md {
+  font-family: "Maven Pro", serif;
+  font-size: 16px;
+  line-height: 140%;
+  font-weight: 400;
+}
+
+.text-sm {
+  font-family: "Maven Pro", serif;
+  font-size: 14px;
+  line-height: 140%;
+  font-weight: 400;
+}
+
+.text-align-center {
+  text-align: center;
+}
+
+.grid {
+  display: grid;
+}
+
+.card-list {
+  grid-template-columns: repeat(3, 330px);
+  gap: 24px;
+}
