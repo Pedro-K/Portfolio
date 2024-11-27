@@ -28,14 +28,6 @@ body {
   color: var(--gray-600);
 }
 
-.first-bg{
-  background-image: url(../assets/images/Background_Intro.png);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-
-}
-
 .container {
   width: 1040px;
   margin: 0 auto;

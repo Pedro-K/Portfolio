@@ -1,4 +1,8 @@
 #intro {
+  background-image: url(../assets/images/Background_Intro.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -108,7 +112,7 @@
   padding-bottom: 120px;
   background-color: var(--gray-100);
 
-  .card-list{
+  .card-list {
     grid-template-columns: repeat(3, 280px);
     justify-content: center;
   }
