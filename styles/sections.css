@@ -104,8 +104,9 @@
 }
 
 #services {
-  margin-top: 88px;
-  margin-bottom: 120px;
+  padding-top: 88px;
+  padding-bottom: 120px;
+  background-color: var(--gray-100);
 
   .card-list{
     grid-template-columns: repeat(3, 280px);
